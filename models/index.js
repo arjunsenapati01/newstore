@@ -1,4 +1,5 @@
 const { Sequelize, DataTypes } = require('sequelize');
+import os
 
 const sequelize = new Sequelize({
     dialect: 'sqlite',
